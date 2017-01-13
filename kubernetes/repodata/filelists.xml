@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filelists xmlns="http://linux.duke.edu/metadata/filelists" packages="5">
+<package pkgid="5612db97409141d7fd839e734d9ad3864dcc16a630b2a91c312589a0a0d960d0" name="kubeadm" arch="x86_64">
+  <version epoch="0" ver="1.6.0" rel="0.alpha.0.2074.a092d8e0f95f52"></version>
+  <file>/etc/systemd/system/kubelet.service.d/10-kubeadm.conf</file>
+  <file>/usr/bin/kubeadm</file>
+</package><package pkgid="93af9d0fbd67365fa5bf3f85e3d36060138a62ab77e133e35f6cadc1fdc15299" name="kubectl" arch="x86_64">
+  <version epoch="0" ver="1.5.1" rel="0"></version>
+  <file>/usr/bin/kubectl</file>
+</package><package pkgid="8a299eb1db946b2bdf01c5d5c58ef959e7a9d9a0dd706e570028ebb14d48c42e" name="kubelet" arch="x86_64">
+  <version epoch="0" ver="1.5.1" rel="0"></version>
+  <file>/etc/systemd/system/kubelet.service</file>
+  <file>/usr/bin/kubelet</file>
+  <file type="dir">/etc/kubernetes/manifests</file>
+</package><package pkgid="567600102f687e0f27bd1fd3d8211ec1cb12e71742221526bb4e14a412f4fdb5" name="kubernetes-cni" arch="x86_64">
+  <version epoch="0" ver="0.3.0.1" rel="0.07a8a2"></version>
+  <file>/opt/cni/bin/bridge</file>
+  <file>/opt/cni/bin/cnitool</file>
+  <file>/opt/cni/bin/dhcp</file>
+  <file>/opt/cni/bin/flannel</file>
+  <file>/opt/cni/bin/host-local</file>
+  <file>/opt/cni/bin/ipvlan</file>
+  <file>/opt/cni/bin/loopback</file>
+  <file>/opt/cni/bin/macvlan</file>
+  <file>/opt/cni/bin/noop</file>
+  <file>/opt/cni/bin/ptp</file>
+  <file>/opt/cni/bin/tuning</file>
+  <file type="dir">/opt/cni</file>
+  <file type="dir">/opt/cni/bin</file>
+</package><package pkgid="efd51c756948693d0c7334edfd01e77cc875aa471e46d2d1800429427bfbbde1" name="rkt" arch="x86_64">
+  <version epoch="0" ver="1.21.0" rel="1"></version>
+  <file>/usr/bin/rkt</file>
+  <file>/usr/lib/rkt/stage1-images/stage1-coreos.aci</file>
+  <file>/usr/lib/rkt/stage1-images/stage1-fly.aci</file>
+  <file>/usr/lib/rkt/stage1-images/stage1-kvm.aci</file>
+  <file>/usr/lib/systemd/system/rkt-api-tcp.socket</file>
+  <file>/usr/lib/systemd/system/rkt-api.service</file>
+  <file>/usr/lib/systemd/system/rkt-gc.service</file>
+  <file>/usr/lib/systemd/system/rkt-gc.timer</file>
+  <file>/usr/lib/systemd/system/rkt-metadata.service</file>
+  <file>/usr/lib/systemd/system/rkt-metadata.socket</file>
+  <file>/usr/lib/tmpfiles.d/rkt.conf</file>
+  <file>/usr/share/bash-completion/completions/rkt</file>
+  <file>/usr/share/doc/rkt/README.md</file>
+  <file>/usr/share/doc/rkt/api-service.md</file>
+  <file>/usr/share/doc/rkt/app-container.md</file>
+  <file>/usr/share/doc/rkt/app-environment.md</file>
+  <file>/usr/share/doc/rkt/build-configure.md</file>
+  <file>/usr/share/doc/rkt/capabilities-guide.md</file>
+  <file>/usr/share/doc/rkt/cat-manifest.md</file>
+  <file>/usr/share/doc/rkt/commands.md</file>
+  <file>/usr/share/doc/rkt/config.md</file>
+  <file>/usr/share/doc/rkt/configuration.md</file>
+  <file>/usr/share/doc/rkt/dependencies.md</file>
+  <file>/usr/share/doc/rkt/distributions.md</file>
+  <file>/usr/share/doc/rkt/dns.md</file>
+  <file>/usr/share/doc/rkt/enter.md</file>
+  <file>/usr/share/doc/rkt/examples-bridge.md</file>
+  <file>/usr/share/doc/rkt/export.md</file>
+  <file>/usr/share/doc/rkt/fetch.md</file>
+  <file>/usr/share/doc/rkt/fly.md</file>
+  <file>/usr/share/doc/rkt/gc.md</file>
+  <file>/usr/share/doc/rkt/getting-started-guide.md</file>
+  <file>/usr/share/doc/rkt/hacking.md</file>
+  <file>/usr/share/doc/rkt/image-fetching-behavior.md</file>
+  <file>/usr/share/doc/rkt/image.md</file>
+  <file>/usr/share/doc/rkt/install-rkt-in-coreos.md</file>
+  <file>/usr/share/doc/rkt/list.md</file>
+  <file>/usr/share/doc/rkt/metadata-service.md</file>
+  <file>/usr/share/doc/rkt/overriding-defaults.md</file>
+  <file>/usr/share/doc/rkt/overview.md</file>
+  <file>/usr/share/doc/rkt/packaging.md</file>
+  <file>/usr/share/doc/rkt/prepare.md</file>
+  <file>/usr/share/doc/rkt/resolv-conf-logic.dot</file>
+  <file>/usr/share/doc/rkt/resolv-conf-logic.png</file>
+  <file>/usr/share/doc/rkt/rkt-1-4-0-benchmarks.md</file>
+  <file>/usr/share/doc/rkt/rkt-build-rkt.md</file>
+  <file>/usr/share/doc/rkt/rkt-vs-docker-fetch.png</file>
+  <file>/usr/share/doc/rkt/rkt-vs-docker-process-model.png</file>
+  <file>/usr/share/doc/rkt/rkt-vs-other-projects.md</file>
+  <file>/usr/share/doc/rkt/rm.md</file>
+  <file>/usr/share/doc/rkt/run-prepared.md</file>
+  <file>/usr/share/doc/rkt/run.md</file>
+  <file>/usr/share/doc/rkt/running-docker-images.md</file>
+  <file>/usr/share/doc/rkt/running-fly-stage1.md</file>
+  <file>/usr/share/doc/rkt/running-kvm-stage1.md</file>
+  <file>/usr/share/doc/rkt/seccomp-guide.md</file>
+  <file>/usr/share/doc/rkt/selinux.md</file>
+  <file>/usr/share/doc/rkt/signing-and-verification-guide.md</file>
+  <file>/usr/share/doc/rkt/status.md</file>
+  <file>/usr/share/doc/rkt/stop.md</file>
+  <file>/usr/share/doc/rkt/trust.md</file>
+  <file>/usr/share/doc/rkt/trying-out-rkt.md</file>
+  <file>/usr/share/doc/rkt/using-rkt-with-kubernetes.md</file>
+  <file>/usr/share/doc/rkt/using-rkt-with-nomad.md</file>
+  <file>/usr/share/doc/rkt/using-rkt-with-systemd.md</file>
+  <file>/usr/share/doc/rkt/version.md</file>
+  <file>/usr/share/man/man1/rkt.1</file>
+  <file>/usr/share/man/man1/rkt_api-service.1</file>
+  <file>/usr/share/man/man1/rkt_cat-manifest.1</file>
+  <file>/usr/share/man/man1/rkt_config.1</file>
+  <file>/usr/share/man/man1/rkt_enter.1</file>
+  <file>/usr/share/man/man1/rkt_export.1</file>
+  <file>/usr/share/man/man1/rkt_fetch.1</file>
+  <file>/usr/share/man/man1/rkt_gc.1</file>
+  <file>/usr/share/man/man1/rkt_image.1</file>
+  <file>/usr/share/man/man1/rkt_image_cat-manifest.1</file>
+  <file>/usr/share/man/man1/rkt_image_export.1</file>
+  <file>/usr/share/man/man1/rkt_image_extract.1</file>
+  <file>/usr/share/man/man1/rkt_image_gc.1</file>
+  <file>/usr/share/man/man1/rkt_image_list.1</file>
+  <file>/usr/share/man/man1/rkt_image_render.1</file>
+  <file>/usr/share/man/man1/rkt_image_rm.1</file>
+  <file>/usr/share/man/man1/rkt_list.1</file>
+  <file>/usr/share/man/man1/rkt_metadata-service.1</file>
+  <file>/usr/share/man/man1/rkt_prepare.1</file>
+  <file>/usr/share/man/man1/rkt_rm.1</file>
+  <file>/usr/share/man/man1/rkt_run-prepared.1</file>
+  <file>/usr/share/man/man1/rkt_run.1</file>
+  <file>/usr/share/man/man1/rkt_status.1</file>
+  <file>/usr/share/man/man1/rkt_stop.1</file>
+  <file>/usr/share/man/man1/rkt_trust.1</file>
+  <file>/usr/share/man/man1/rkt_version.1</file>
+</package></filelists>
